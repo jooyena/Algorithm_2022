@@ -1,7 +1,7 @@
 # 덧셈하여 타겟을 만들 수 있는 배열의 두 숫자 인덱스를 리턴
 # 브루트포스 방법 제외
-
 # target에서 n을 뺀 수가 존재하는지 확인하는 방법 (in을 활용)
+
 def two_some_1(nums: list[int], target: int):
     for i, n in enumerate(nums):
         complement = target - n

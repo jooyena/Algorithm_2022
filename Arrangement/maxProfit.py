@@ -3,7 +3,7 @@ import sys
 
 def maxProfit(list: list[int]) -> int:
     profit = 0
-    for i in range(0, list[i]):
+    for i in range(0, list):
         profit = max(profit, list[i] - max(list, key=lambda x: (x.split()[i:])))
     return profit
 
